@@ -46,6 +46,7 @@
     <Compile Include="IBaseService.cs" />
     <Compile Include="IMaterialService.cs" />
     <Compile Include="ISizeService.cs" />
+    <Compile Include="MaterialService.cs" />
     <Compile Include="SizeService.cs" />
     <Compile Include="UserService.cs" />
     <Compile Include="IUserService.cs" />
@@ -71,6 +72,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
